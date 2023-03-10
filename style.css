@@ -1,0 +1,36 @@
+@charset "utf-8";
+*{margin: 0px;padding: 0px;outline: 0px;list-style: none;text-decoration: none;box-sizing: border-box;}
+:root{
+    --color-body:#ffffff;
+    --color-white-100:#eff7fa;
+    --color-blue-100:#19283f;
+    --color-blue-200:#33d1cc;
+    --color-yellow:#ffc400;
+    --color-red:#ff3150;
+    --font-family:'Roboto', sans-serif;
+    --border-radius: 10px;
+}
+html, body{height: 100%;}
+body{background-color: var(--color-body);}
+/* start header */
+body #header{min-height: 500px;background-color: var(--color-blue-100);}
+body #header .container{height: 100% !important;min-height: inherit;position: relative;}
+    /* start navBar */
+body #header .container .navbar{background-color: transparent !important;}
+body #header .container .navbar .container-fluid .navbar-brand .img{width: 87px;}
+body #header .container .navbar .container-fluid .humbrgerIcon{border: none;}
+body #header .container .navbar .container-fluid .humbrgerIcon:focus{box-shadow: none !important;}
+body #header .container .navbar .container-fluid .humbrgerIcon a i{color: var(--color-body);font-size: 30px;}
+body #header .container .navbar .container-fluid .navbar-nav .nav-item{margin: 0px 24px;}
+body #header .container .navbar .container-fluid .navbar-nav .nav-item .nav-link{color: var(--color-body) !important;font-family: var(--font-family);}
+body #header .container .navbar .container-fluid .collapse .iconSearch-button{border-left-color:var(--color-blue-200) !important;padding-left: 24px;}
+body #header .container .navbar .container-fluid .collapse .iconSearch-button i{color: var(--color-blue-200);font-size: 20px;}
+body #header .container .navbar .container-fluid .collapse .iconSearch-button i, button{margin:0px 24px;}
+body #header .container .navbar .container-fluid .collapse .iconSearch-button button{background-color: var(--color-red);color: var(--color-yellow);border-radius: var(--border-radius); font-family: var(--font-family);}
+    /* start content bottom */
+body #header .container-fluid{position: relative;min-height: inherit;}    
+body #header .container-fluid .contentBottom{position: absolute;inset: 0;margin: auto;width: fit-content;height:fit-content;}
+body #header .container-fluid .contentBottom > .btn{background-color: var(--color-red);color: var(--color-yellow);}
+@media (max-width:991px){
+    body #header .container .navbar .container-fluid .collapse .iconSearch-button{border-left: none !important;}
+}
