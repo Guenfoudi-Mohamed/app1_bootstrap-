@@ -9,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    <!-- font google -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">    <!-- font google -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">   <!-- bootstrap -->
-    <!-- <link href="/fontAwesome/css/all.min.css" rel="stylesheet" >    fontawsome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet" > 
+    <link href="/fontAwesome/css/all.min.css" rel="stylesheet" >   <!-- bootstrap -->
     <!-- <link rel="stylesheet" href="/file_bootstrap/bootstrap.min.css" type="text/css"> -->
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
@@ -22,29 +21,29 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary pt-3 pb-3">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="/images/logo.png" class="img"></a>
-            <button class="humbrgerIcon navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="humbrgerIcon navbar-toggler me-0 pe-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <a><i class="fa-solid fa-bars"></i></a>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-lg-0 mt-md-3">
-                <li class="nav-item  ms-0">
+              <ul class="navbar-nav ms-auto mt-lg-0 mt-md-3">
+                <li class="nav-item ms-0  ms-0">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
-                <li class="nav-item ms-md-0">
-                  <a class="nav-link" href="#">Services</a>
+                <li class="nav-item ms-md-0  ms-0">
+                  <a class="nav-link" href="#services">Services</a>
                 </li>
-                <li class="nav-item ms-md-0">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                <li class="nav-item ms-md-0  ms-0">
+                  <a class="nav-link" href="#portfolio" role="button" aria-expanded="false">Portfolio</a>
                 </li>
-                <li class="nav-item ms-md-0">
-                  <a class="nav-link">About</a>
+                <li class="nav-item ms-md-0   ms-0">
+                  <a class="nav-link" href="#aboutUs">About</a>
                 </li>
-                <li class="nav-item ms-md-0 mb-md-0">
-                  <a class="nav-link">Contact</a>
+                <li class="nav-item ms-md-0 mb-md-0  ms-0">
+                  <a class="nav-link" href="#contactUs">Contact</a>
                 </li>
               </ul>
-              <div class="iconSearch-button border-start  d-flex d-md-block align-items-center ps-md-0" role="search">
-                <i class="fa-solid fa-magnifying-glass d-block  ms-0 mb-md-3 mt-md-3" title=""></i>
+              <div class="iconSearch-button border-start  d-lg-flex d-md-block align-items-center ps-lg-4 ps-md-0 ps-0" role="search">
+                <i class="fa-solid fa-magnifying-glass d-block d-md-block d-lg-inline  ms-0 mb-3 mt-1 mb-md-3 mt-md-3" title=""></i>
                 <button type="button" class="btn ms-0 me-0">Login</button>
               </div>
             </div>
@@ -62,11 +61,369 @@
     </header>
     <!-- end header -->
     <!-- start main -->
-    <main>
-      
+    <main id="main">
+      <!-- satrt section services -->
+      <section id='services' class="section services">
+        <div class="container">
+          <!-- start title Section -->
+          <div class="titleSection">
+            <img src="/images/logoSections.png" class="img img-fluid ms-auto me-auto d-block" alt="logo section">
+            <h3 class="text-center text-white">We are Good at </h3>
+            <span class="text-center text-white d-block ms-auto me-auto ps-2 pe-2 pb-1">SOME OF THEASE STUFF UNDER</span>
+          </div>
+          <!-- start services'1,2,3' -->
+          <div class="container-fluid row justify-content-center ms-auto me-auto gap-lg-4 gap-5">
+            <article class="col-lg col-md-auto" data-text="1">
+              <div class="service sv0">
+                <img src="/images/pen.png" class="ms-auto me-auto d-block" alt="iconService">
+                <h4 class="text-center">GRAPHIC DESIGN</h4>
+                <p class="text-center mb-0">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+              </div>
+            </article>
+            <article class="col-lg col-md-auto mw-md-50" data-text="2">
+              <div class="service sv1">
+                <img src="/images/desktop.png" class="ms-auto me-auto d-block" alt="iconService">
+                <h4 class="text-center">WEB DESIGN</h4>
+                <p class="text-center mb-0">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+              </div>
+            </article>
+            <article class="col-lg col-md-auto" data-text="3">
+              <div class="service sv2">
+                <img src="/images/plug.png" class="ms-auto me-auto d-block" alt="iconService">
+                <h4 class="text-center">APP DESIGN</h4>
+                <p class="text-center mb-0">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- start section portfolio -->
+      <section id="portfolio" class="section portfolio">
+        <div class="container">
+          <!-- start title Section -->
+          <div class="titleSection">
+            <img src="/images/logoSections.png" class="img img-fluid ms-auto me-auto d-block" alt="logo section">
+            <h3 class="text-center text-white">We make this</h3>
+            <span class="text-center text-white d-block ms-auto me-auto ps-2 pe-2 pb-1">PREPARE TO BE AMAZED</span>
+          </div>
+          <!-- start nav -->
+          <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">all</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Code</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photography</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Apps</a>
+            </li>
+          </ul>
+          <!-- start projects -->
+          <div class="projects row row-gap-4 justify-content-center">
+            <div class="col-11 col-md-5 col-lg-3">
+              <div class="project w0">
+                <img src="/images/img-0.jpg" class="img-fluid" alt="">
+                <div class="contentHidde">
+                  <h4 class="text-center">Awesome Work</h4>
+                  <span class="text-center">/Design</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-md-5 col-lg-3">
+              <div class="project w1">
+                <img src="/images/img-1.jpg" class="img-fluid" alt="">
+                <div class="contentHidde">
+                  <h4 class="text-center">Awesome Work</h4>
+                  <span class="text-center">/Design</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-md-5 col-lg-3">
+              <div class="project w0">
+                <img src="/images/img-0.jpg" class="img-fluid" alt="">
+                <div class="contentHidde">
+                  <h4 class="text-center">Awesome Work</h4>
+                  <span class="text-center">/Design</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-md-5 col-lg-3">
+              <div class="project w1">
+                <img src="/images/img-1.jpg" class="img-fluid" alt="">
+                <div class="contentHidde">
+                  <h4 class="text-center">Awesome Work</h4>
+                  <span class="text-center">/Design</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-md-5 col-lg-3">
+              <div class="project w0">
+                <img src="/images/img-0.jpg" class="img-fluid" alt="">
+                  <div class="contentHidde">
+                  <h4 class="text-center">Awesome Work</h4>
+                <span class="text-center">/Design</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-md-5 col-lg-3">
+              <div class="project w1">
+                <img src="/images/img-1.jpg" class="img-fluid" alt="">
+                  <div class="contentHidde">
+                  <h4 class="text-center">Awesome Work</h4>
+                <span class="text-center">/Design</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-md-5 col-lg-3">
+              <div class="project w0">
+                <img src="/images/img-0.jpg" class="img-fluid" alt="">
+                <div class="contentHidde">
+                  <h4 class="text-center">Awesome Work</h4>
+                  <span class="text-center">/Design</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-md-5 col-lg-3">
+              <div class="project w1">
+                <img src="/images/img-1.jpg" class="img-fluid" alt="">
+                <div class="contentHidde">
+                  <h4 class="text-center">Awesome Work</h4>
+                  <span class="text-center">/Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start botton -->
+          <button class="btn ms-auto me-auto d-block ps-4 pe-4">I WANT MORE...</button>
+        </div>
+      </section>
+      <!-- start section About Us -->
+      <section id="aboutUs" class="section aboutUs">
+        <div class="container">
+          <!-- start title Section -->
+          <div class="titleSection">
+            <img src="/images/logoSections.png" class="img img-fluid ms-auto me-auto d-block" alt="logo section">
+            <h3 class="text-center text-white">Some Stuff About Us</h3>
+            <span class="text-center text-white d-block ms-auto me-auto ps-2 pe-2 pb-1">THE GREAT TEAM</span>
+          </div>
+          <!-- start paragraph -->
+          <p class="paragraph text-center ms-auto me-auto">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+          <!-- start content bottom -->
+          <div class="contentBottom row row-gap-5 align-items-center justify-content-center">
+            <!-- start info -->
+            <div class="info col-12 col-md-9 col-lg-5">
+              <h4 class="text-lg-start text-md-center text-center">Retina Design</h4>
+              <p class="text-lg-start text-md-center text-center">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.<br><br>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+              <div class="row justify-content-md-center justify-content-center justify-content-lg-start p-1 mb-md-0  mb-lg-3 mb-xl-3 mb-xxl-0"><button class="btn ms-0 me-0 col-5">OREDER ME ONE</button></div>
+            </div>
+            <!-- start macBook -->
+            <div class="imgMacBook col-12 col-md-12 col-lg-7 align-self-end position-relative">
+              <img src="/images/macBook.png" class="img-fluid">
+              <img src="/images/logoScreen.png" class="img-fluid position-absolute">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- start section team -->
+      <section class="section team">
+        <div class="container">
+          <!-- start titleSection -->
+          <div class="titleSection">
+            <h4 class="text-center">Meet the Team</h4>
+            <p class="text-center ms-auto me-auto mb-0">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+          </div>
+          <!-- start persons -->
+          <div class="persons container-fluid row row-gap-4 align-items-stretch justify-content-center ms-auto me-auto">
+            <!-- start person -->
+            <div class="col-10 col-md-5 col-lg-5 col-xl-3 ">
+              <div class="person">
+                <div class="img">
+                  <img src="/images/teamPhoto.jpeg" class="img-fluid">
+                </div>  
+                <h4 class="namePerson text-center p-2">Luke Skywalker</h4>
+                <p class="infoPerson text-center p-2">“I don't understand how we got by those troops. I thought we were dead.“</p>
+              </div>
+            </div>
+            <div class="col-10 col-md-5 col-lg-5 col-xl-3 ">
+              <div class="person">
+                <div class="img">
+                  <img src="/images/teamPhoto.jpeg" class="img-fluid">
+                </div>  
+                <h4 class="namePerson text-center p-2">Obi-Wan Kenobi</h4>
+                <p class="infoPerson text-center p-2">“Your clones are very impressive. You must be very proud”</p>
+              </div>
+            </div>
+            <div class="col-10 col-md-5 col-lg-5 col-xl-3 ">
+              <div class="person">
+                <div class="img">
+                  <img src="/images/teamPhoto.jpeg" class="img-fluid">
+                </div>  
+                <h4 class="namePerson text-center p-2">Princess Leia</h4>
+                <p class="infoPerson text-center p-2"> “I don't know who you are or where you came from, but from now on you'll do as I tell you, okay?” </p>
+              </div>
+            </div>
+            <div class="col-10 col-md-5 col-lg-5 col-xl-3 ">
+              <div class="person">
+                <div class="img">
+                  <img src="/images/teamPhoto.jpeg" class="img-fluid">
+                </div>  
+                <h4 class="namePerson text-center p-2">Yoda</h4>
+                <p class="infoPerson text-center p-2">“Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.”</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- start clients -->
+      <section class="section clients">
+        <div class="container">
+          <div class="icons row row-gap-5 justify-content-center align-items-center">
+            <div class="col-11 col-sm-6 col-lg-4 col-xl">
+              <img src="/images/logo-client-0.png" class="img-fluid">
+            </div>
+            <div class="col-11 col-sm-6 col-lg-4 col-xl">
+              <img src="/images/logo-client-1.png" class="img-fluid">
+            </div>
+            <div class="col-11 col-sm-6 col-lg-4 col-xl">
+              <img src="/images/logo-client-2.png" class="img-fluid">
+            </div>
+            <div class="col-11 col-sm-6 col-lg-4 col-xl">
+              <img src="/images/logo-client-3.png" class="img-fluid">
+            </div>
+            <div class="col-11 col-sm-6 col-lg-4 col-xl">
+              <img src="/images/logo-client-0.png" class="img-fluid">
+            </div>
+            <div class="col-11 col-sm-6 col-lg-4 col-xl">
+              <img src="/images/logo-client-1.png" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- start Advertise -->
+      <section class="section advertise">
+        <div class="container">
+          <h4 class="text-center text-white">Start Your Project Now</h4>
+          <p class="text-center">Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+          <button class="btn ms-auto me-auto d-block ps-3 pe-3">START PROJECT</button>
+        </div>
+      </section>
+      <!-- start Blog -->
+      <section class="section blog">
+        <div class="container">
+          <!-- start title section -->
+          <div class="titleSection">
+            <img src="/images/logoSections.png" class="img img-fluid ms-auto me-auto d-block" alt="logo section">
+            <h3 class="text-center text-white">Read Our Blog</h3>
+            <span class="text-center text-white d-block ms-auto me-auto ps-2 pe-2 pb-1">NEW STORIES</span>
+          </div>
+          <!-- articles 'blog' -->
+          <div class="articles row row-gap-5 justify-content-center align-items-center">
+            <div class="col-11 col-md-8 col-lg-4">
+              <!-- satrt article -->
+              <article class="article border">
+                <div class="imgPoster">   <!-- start img article -->
+                  <img src="/images/img-blog-0.jpg" alt="img poster blog" class="img-fluid">
+                </div>
+                <span class="dateBlog p-1 d-block pb-0 mb-0">January 17,2017</span>
+                <h4 class="titleBlog p-1">Some Awesome Blog Title Here</h4>
+              </article>
+            </div>
+            <div class="col-11 col-md-8 col-lg-4">
+              <!-- satrt article -->
+              <article class="article border">
+                <div class="imgPoster">   <!-- start img article -->
+                  <img src="/images/img-blog-0.jpg" alt="img poster blog" class="img-fluid">
+                </div>
+                <span class="dateBlog p-1 d-block pb-0 mb-0">January 17,2017</span>
+                <h4 class="titleBlog p-1">Some Awesome Blog Title Here</h4>
+              </article>
+            </div>
+            <div class="col-11 col-md-8 col-lg-4">
+              <!-- satrt article -->
+              <article class="article border">
+                <div class="imgPoster">   <!-- start img article -->
+                  <img src="/images/img-blog-0.jpg" alt="img poster blog" class="img-fluid">
+                </div>
+                <span class="dateBlog p-2 d-block pb-0 mb-0">January 17,2017</span>
+                <h4 class="titleBlog p-2">Some Awesome Blog Title Here</h4>
+              </article>
+            </div>
+          </div>
+          <button class="btn d-block ps-3 pe-3 ms-auto me-auto d-block">MORE STORIES</button>
+        </div>
+      </section>
+      <!-- start Newsletter -->
+      <section class="section newsletter">
+        <div class="container">
+          <div class="row row-gap-4 justify-content-center align-items-center">
+            <div class="col-lg-auto">
+              <span class="text-center d-block">Subscribe to our Newsletter:</span>
+            </div>
+            <div class="col-8 col-md-6 col-lg-4">
+              <input type="email" class="inpEmail pt-1 pb-1 d-block w-100" placeholder="Subscribe to our Newsletter:">
+            </div>
+            <div class="col-lg-auto">
+              <button class="btn ps-5 pe-5 ms-auto me-auto d-block">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- end main -->
-
+    <!-- start footer -->
+    <footer id="footer">
+      <div id="contactUs" class="container">
+        <div class="content row row-gap-5 justify-content-center align-items-center">
+          <div class="col-lg-4 align-self-start">
+            <div class="imgPoster ms-auto me-auto ms-lg-0 me-lg-0">
+              <img src="/images/logo-Footer.png" class="">
+            </div>
+            <p class="text text-center text-lg-start">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+            <label class="d-block text-center text-lg-start">Created by <span>Graphberry</span>,Belgrade,Serbia</label>
+            <label class="d-block text-center text-lg-start"> © 2017 - <span>Bondi.Inc</span></label>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-2 align-self-start">
+            <h5 class="text-center text-lg-start">Links</h5>
+            <ul class="list mb-0 ps-0">
+              <li class="text-center text-lg-start"><a class="#">Home</a></li>
+              <li class="text-center text-lg-start"><a class="#">Our Services</a></li>
+              <li class="text-center text-lg-start"><a class="#">Portfolio</a></li>
+              <li class="text-center text-lg-start"><a class="#">Testimonials</a></li>
+              <li class="text-center text-lg-start"><a class="#">Support</a></li>
+              <li class="text-center text-lg-start"><a class="#">Terms and Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-2 align-self-start">
+            <h5 class="text-center text-lg-start">About Us</h5>
+            <ul class="list mb-0 ps-0">
+              <li class="text-center text-lg-start"><a class="#">Sign In</a></li>
+              <li class="text-center text-lg-start"><a class="#">Register</a></li>
+              <li class="text-center text-lg-start"><a class="#">About Us</a></li>
+              <li class="text-center text-lg-start"><a class="#">Blog</a></li>
+              <li class="text-center text-lg-start"><a class="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 align-self-start">
+            <h5 class="text-center text-lg-start">Contact Us</h5>
+            <p class="text-center text-lg-start">Get in touch with us via mail phone.We are waiting for your call or message</p>
+            <button class="btn ps-5 pe-5 d-block ms-auto me-auto ms-lg-0 me-lg-0">graphberry@gmail.com</button>
+            <div class="socialIcons d-block ms-auto me-auto ms-lg-0 me-lg-0">
+              <a class="d-inline-flex text-center me-1" title="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a class="d-inline-flex text-center me-1" title="twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a class="d-inline-flex text-center me-1" title="google plus"><i class="fa-brands fa-google-plus-g"></i></a>
+              <a class="d-inline-flex text-center me-0" title="dribbble"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
     <script src="/file_bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 </html>
