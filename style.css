@@ -82,7 +82,7 @@ body #main .aboutUs .container .contentBottom > .info h4{color: var(--color-blue
 body #main .aboutUs .container .contentBottom > .info p{color: var(--color-blue-300);}
 body #main .aboutUs .container .contentBottom > .info div button{color: var(--color-yellow);background-color: #ff3150;border-radius: 7px;}
             /* start content right 'img macBook' */
-body #main .aboutUs .container .imgMacBook img:nth-of-type(2)[src="/images/logoScreen.png"]{width: 145px;height: 75px;inset: 0;margin: auto;}
+body #main .aboutUs .container .imgMacBook img:nth-of-type(2){width: 145px;height: 75px;inset: 0;margin: auto;}
     /* start section team */
 body #main .team{background-color: var(--color-white-100);}    
         /* start title Section */
